@@ -1,0 +1,177 @@
+*{
+    font-family: Arial;
+    text-decoration: none;
+}
+
+/* Header */
+.logo-1 img{
+    height: 200px;
+    border-radius: 20px;
+    zoom: 1.5;
+}
+
+.header{
+    display: flex;
+    background-color: #62e2ed;
+    padding: 10px;
+}
+
+.nama-tempat {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nama-tempat a{
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2em;
+    color: #ffffff;;
+}
+
+.navbar{
+    background-color: cornflowerblue;
+    padding: 10px;
+
+}
+.nav{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.nav a{
+    color: white;
+    font-size: 18px;
+}
+
+.nav:hover{
+    background-color:gainsboro;
+}
+
+/* Konten Beranda */
+
+.konten{
+    width: 80%;
+    margin: auto;
+    background-color: #839dc8;
+    padding: 70px;
+    max-width: fit-content;
+    min-width: fit-content;
+}
+
+h1{
+    font-size: 30px;
+}
+.string{
+    font-size: 25px;
+    overflow: hidden;
+    animation: string 2s steps(40) infinite alternate;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #839dc8;
+    padding: 5px;
+    color: rgb(133, 253, 241);
+}
+
+@keyframes string{
+    0%{
+        width: 0%;
+        visibility: hidden;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+/* Galeri Foto */
+.galeri{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(218, 218, 218);
+    text-align: center;
+    justify-content: center;
+    max-width: fit-content;
+    min-width:fit-content
+    
+}
+.isi-foto{
+    border-spacing: 4px;
+}
+
+.judul{
+    background-color:rgb(117, 172, 208);
+}
+
+.judul th{
+    padding: 10px;
+}
+
+.buku{
+    background-color:#839dc8;
+}
+
+.foto-genap{
+    background-color: rgb(111, 124, 159);
+}
+
+.buku{
+    padding: 10px;
+}
+
+td>img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.buku:hover{
+    background-color:antiquewhite;
+}
+
+/* Kontak */
+.Call-Center{
+    background-color: azure;
+}
+
+.form-group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    font-size: 20px;
+    color: rgb(135, 135, 135);
+}
+
+.form-group input{
+    margin-top: 10px;
+    width: 60%;
+    display: block;
+}
+
+.form-group textarea{
+    display: block;
+    margin-top: 10px;
+    height: 200px;
+    width: 60%;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(173, 234, 240);
+    background-color: rgb(0, 0, 0);
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(167, 167, 167);
+}
+
+.btn:active{
+    background-color: rgb(63, 188, 188);
+}

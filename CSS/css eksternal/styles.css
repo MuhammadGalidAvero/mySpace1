@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+    font-family: 'Lucida Sans';
+}
+
+p{
+    font-size: larger;
+    font-family: Arial;
+
+}
+
+b{
+    font-size: small;
+}
+
+i{
+    font-size: 100px;
+    background-color: azure;
+}

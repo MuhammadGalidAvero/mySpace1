@@ -1,0 +1,100 @@
+*{
+    font-family: Tahoma;
+    text-decoration: none;
+}
+
+.judul{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    border: 5px solid violet;
+    padding: auto;
+    margin-bottom: 20px;
+}
+
+
+.judul-berita{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(171, 158, 143);
+}
+
+.judul:hover{
+    background-color: rgb(36, 120, 92);
+}
+
+.artikel-1{
+    background-color: rgb(175, 192, 247);
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid violet;
+    padding: auto;
+    margin-bottom: 20px;
+}
+
+.artikel-1:hover{
+    background-color: blue;
+}
+
+.artikel-2{
+    font-size: 3em;
+    font-weight: bold;
+    background-color: rgba(175, 192, 247, 0.3);
+    text-align: center;
+    border: 5px solid violet;
+    padding: auto;
+    margin-bottom: 20px;
+}
+
+.artikel-2:hover{
+    background-color: rgb(32, 132, 219);
+}
+
+.container{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+span{
+    color: crimson;
+}
+
+.nama{
+    color: rgb(18, 66, 144);
+}
+
+.tanggal{
+    color:rgb(32, 132, 219);
+}
+
+.judul-halaman-awal{
+    font-size: 1em;
+}
+
+.judul-halaman-awal{
+    padding: 5px;
+}
+
+.preview{
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(39, 19, 135, 0.2);
+    width: 300px;
+}
+
+.judul-1{
+    font-size: 1.5em;
+    height: 120px;
+}
+
+.credit{
+    font-style: italic;
+}
+
+.preview:hover{
+    background-color: aliceblue;
+}

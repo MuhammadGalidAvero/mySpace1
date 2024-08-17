@@ -1,0 +1,35 @@
+*{
+    background-color: azure;
+    /*border:1px solid;*/
+}
+
+h3 span{
+    color: #552b2b;
+    background-color: crimson;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.penulis{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+h2{
+    padding: 10px;
+    background-color: #efefef;
+    color: rgba(19, 12, 220, 0.5);
+}
+
+h1{
+ background-color: black;
+ color: white;
+ text-align: center;
+ padding: 10px;
+ 
+}
+
+span{
+    color: blue;
+}
+

@@ -1,0 +1,64 @@
+/* universal Selector*/
+*{
+    font-size:larger;
+}
+
+
+/* type selector*/
+h1{
+    font-family: 'tahoma';
+}
+
+h2{
+    color:blue;
+}
+
+h3{
+    color: midnightblue;
+}
+
+/* Class Selector */
+
+.zahran{
+    color: darkorange;
+}
+
+
+
+/* Id Selector */
+#tugas{
+    color: chocolate;
+}
+
+
+/* Child Selector*/
+
+p>b{
+    font-style: italic;
+}
+
+p>span{
+    background-color :crimson;
+}
+
+
+/* Descendan Selector */
+p b{
+    font-family:Tahoma;
+}
+
+/* Adjacent Sibling Selector */
+h1+p{
+    color:blueviolet;
+}
+
+h2+p{
+    font-family: Verdana;
+    color: deepskyblue;
+}
+
+
+/* General Sibling Selector */
+h1~p{
+    text-align: center;
+}

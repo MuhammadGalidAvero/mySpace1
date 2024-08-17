@@ -1,0 +1,17 @@
+* {
+    font-family: Tahoma;
+    font-size: larger;
+    border: 10px solid #6655;
+    
+}
+
+.inheritance{
+    color: goldenrod;
+    padding: 10px 20px 30px 40px;
+    border: 1px solid #656565;
+    background-color: aliceblue;
+}
+
+p>b{
+    font-style: italic;
+}
